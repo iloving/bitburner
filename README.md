@@ -34,6 +34,19 @@ master.js - master script that runs everything.  Requires a 16GB server to run. 
 
 master_lib/settings.js - a bunch of adjustable parameters.
 
+master_lib/constants.js - some general constants cause magic strings/numbers are Bad(tm).
+
+master_lib/Server.js - class that represents individual servers
+
+master_lib/Server_Manager.js - class that manages the entire server fleet
+
+master_lib/utils.js - misc functions
+
+
+master_lib/constants.js - a bunch of adjustable parameters.
+
+master_lib/constants.js - a bunch of adjustable parameters.
+
 root.js - helper script to root a server
 
 grow.js - helper script to grow a server
@@ -41,4 +54,6 @@ grow.js - helper script to grow a server
 hack.js - helper script to hack money from server
 
 weaken.js - helper script to weaken server security
+
+
 

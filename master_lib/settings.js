@@ -1,6 +1,6 @@
 import * as constants from "master_lib/constants.js";
 
-export const LOG_LEVEL=constants.LOG_BASIC;
+export const LOG_LEVEL=constants.LOG_VERBOSE;
 
 //How often, in seconds, we run each operation, in seconds
 export const FREQ_LOOP=0.01; //how often we loop.  Every other value should be multiple of this
@@ -10,6 +10,7 @@ export const FREQ_HACK=0.1;
 
 //If the maximum server money isn't at least this much, don't waste time hacking.
 export const MIN_MONEY = 1000000;
+//Ditto with the server money growth rate
 export const MIN_SERVER_GROWTH=10;
 
 //What percentage the servers money should be hacked per attempt.
