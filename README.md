@@ -19,14 +19,17 @@ share.js - share your server memory with factions
 
 stock.js - script to manage basic stoke trades (citation needed)
 
-## hacking
+## Hacking
 This is a set of scripts to automate the hacking of available servers.  It is coded to discover game changes so that you don't need to continuously restart the script, eg:
 - Discover all servers on network
 - Automatically root servers as your hack skill and available port tools allow it
 - uses all available scriptable servers, distributing threads across all available servers automatically
 
-As of this writing, my home server has 8 cores and 64PB RAM, and the script is generator $24 trillion/sec
+### Notes
+- As of this writing, my home server has 8 cores and 64PB RAM, and the script is generator $24 trillion/sec
+- To run this script, you will need a server with 16GB memory, and formulas.exe.  If your home server doesn't have that yet, a purchased server should do fine.
 
+### Files
 master.js - master script that runs everything.  Requires a 16GB server to run.  Run with no parameters.
 
 master_lib/settings.js - a bunch of adjustable parameters.
